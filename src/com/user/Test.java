@@ -18,6 +18,6 @@ public class Test {
         SqlSession session = factory.openSession();
         String statement = "com.user.UserMapper.getUserById";
         User user = session.selectOne(statement, 1);
-        System.out.println(user.toString());
+        //System.out.println(user.toString());
     }
 }
